@@ -30,7 +30,7 @@ namespace TakoyakiGame.Main
         }
 
         //落ちるメソッド
-        public void Fall()
+        private void Fall()
         {
             //現在の座標を取得
             Vector2 pos = transform.position;
