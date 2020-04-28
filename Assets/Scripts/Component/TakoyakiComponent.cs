@@ -43,5 +43,10 @@ namespace TakoyakiGame.Main
 
             //つまり毎フレームY座標からSPEED分引かれていく仕組み
         }
+
+        public void DestroyTakoyaki()
+        {
+            Destroy(gameObject);
+        }
     }
 }
